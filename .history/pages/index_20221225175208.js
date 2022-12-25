@@ -26,20 +26,34 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Link href="/learn/next" className={styles.card}>
-            <h2>Learn Next &rarr;</h2>
-            <p>
-              Seriously though I think we should all learn NextJS, It comes with
-              next level strength.
-            </p>
+          
+              <h2>Documentation &rarr;</h2>
+              <p>Find in-depth information about Next.js features and API.</p>
+            </a>
           </Link>
 
-          <Link href="/learn/react" className={styles.card}>
-            <h2>Learn React &rarr;</h2>
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Learn &rarr;</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
+
+          <a
+            href="https://github.com/vercel/next.js/tree/canary/examples"
+            className={styles.card}
+          >
+            <h2>Examples &rarr;</h2>
+            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          </a>
+
+          <a
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            className={styles.card}
+          >
+            <h2>Deploy &rarr;</h2>
             <p>
-              React is a bit more old fashioned this days but then you've got to
-              understand it, elseways, why next.
+              Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
-          </Link>
+          </a>
         </div>
       </main>
 

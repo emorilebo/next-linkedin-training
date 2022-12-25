@@ -27,19 +27,16 @@ export default function Home() {
         <div className={styles.grid}>
           <Link href="/learn/next" className={styles.card}>
             <h2>Learn Next &rarr;</h2>
-            <p>
-              Seriously though I think we should all learn NextJS, It comes with
-              next level strength.
-            </p>
+            <p>Seriously though I think we should all learn NextJS, It comes with next level strength.</p>
           </Link>
 
           <Link href="/learn/react" className={styles.card}>
             <h2>Learn React &rarr;</h2>
-            <p>
-              React is a bit more old fashioned this days but then you've got to
-              understand it, elseways, why next.
-            </p>
+            <p>React is a bit more old fashioned this days but then you've got to understand it, elseways, why next.</p>
           </Link>
+
+         
+
         </div>
       </main>
 
