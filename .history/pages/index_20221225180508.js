@@ -40,20 +40,6 @@ export default function Home() {
               understand it, elseways, why next.
             </p>
           </Link>
-          <Link href="/learn/vue" className={styles.card}>
-            <h2>Learn Vue &rarr;</h2>
-            <p>
-              Vue is a bit more old fashioned this days but then you've got to
-              understand it, elseways, why next.
-            </p>
-          </Link>
-          <Link href="/learn/angular" className={styles.card}>
-            <h2>Learn Angular &rarr;</h2>
-            <p>
-              Vue is a bit more old fashioned this days but then you've got to
-              understand it, elseways, why next.
-            </p>
-          </Link>
         </div>
       </main>
     </div>

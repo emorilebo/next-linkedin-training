@@ -50,7 +50,7 @@ export default function Home() {
           <Link href="/learn/angular" className={styles.card}>
             <h2>Learn Angular &rarr;</h2>
             <p>
-              Vue is a bit more old fashioned this days but then you've got to
+              React is a bit more old fashioned this days but then you've got to
               understand it, elseways, why next.
             </p>
           </Link>
