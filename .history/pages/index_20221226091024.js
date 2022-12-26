@@ -32,7 +32,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Link href="/learn/next" className={styles.card}>
-            <h2>Learn Next</h2>
+            <h2>Learn Next &rarr;</h2>
             <p>
               Seriously though I think we should all learn NextJS, It comes with
               next level strength.
@@ -47,21 +47,21 @@ export default function Home() {
             </p>
           </Link>
           <Link href="/learn/vue" className={styles.card}>
-            <h2>Learn Vue </h2>
+            <h2>Learn Vue &rarr;</h2>
             <p>
               Vue is a bit more old fashioned this days but then you've got to
               understand it, elseways, why next.
             </p>
           </Link>
           <Link href="/learn/angular" className={styles.card}>
-            <h2>Learn Angular </h2>
+            <h2>Learn Angular &rarr;</h2>
             <p>
               Vue is a bit more old fashioned this days but then you've got to
               understand it, elseways, why next.
             </p>
           </Link>
           <Link href="/contact/" className={styles.card}>
-            <h2>Learn Angular</h2>
+            <h2>Learn Angular &rarr;</h2>
             <p>
               Vue is a bit more old fashioned this days but then you've got to
               understand it, elseways, why next.

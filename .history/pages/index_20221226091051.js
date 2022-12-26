@@ -32,7 +32,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Link href="/learn/next" className={styles.card}>
-            <h2>Learn Next</h2>
+            <h2>Learn Next </h2>
             <p>
               Seriously though I think we should all learn NextJS, It comes with
               next level strength.
