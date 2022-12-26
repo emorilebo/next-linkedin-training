@@ -23,12 +23,6 @@ export default function Home() {
         <p className={styles.description}>
           It gets better everyday <code className={styles.code}>trust me</code>
         </p>
-        <p className={styles.description}>
-          You wanna see contacts?{" "}
-          <Link href="/contacts">
-            <code className={styles.code}>contacts</code>
-          </Link>
-        </p>
 
         <div className={styles.grid}>
           <Link href="/learn/next" className={styles.card}>
@@ -60,7 +54,7 @@ export default function Home() {
               understand it, elseways, why next.
             </p>
           </Link>
-          <Link href="/contact/" className={styles.card}>
+          <Link href="/learn/angular" className={styles.card}>
             <h2>Learn Angular &rarr;</h2>
             <p>
               Vue is a bit more old fashioned this days but then you've got to

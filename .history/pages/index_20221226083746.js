@@ -26,7 +26,7 @@ export default function Home() {
         <p className={styles.description}>
           You wanna see contacts?{" "}
           <Link href="/contacts">
-            <code className={styles.code}>contacts</code>
+            <code className={styles.code}>trust me</code>
           </Link>
         </p>
 

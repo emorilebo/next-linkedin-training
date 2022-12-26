@@ -23,12 +23,6 @@ export default function Home() {
         <p className={styles.description}>
           It gets better everyday <code className={styles.code}>trust me</code>
         </p>
-        <p className={styles.description}>
-          You wanna see contacts?{" "}
-          <Link href="/contacts">
-            <code className={styles.code}>contacts</code>
-          </Link>
-        </p>
 
         <div className={styles.grid}>
           <Link href="/learn/next" className={styles.card}>
