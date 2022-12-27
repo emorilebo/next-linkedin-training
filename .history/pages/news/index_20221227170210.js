@@ -8,9 +8,7 @@ export default function News({ results }) {
         {results.map((result) => {
           return (
             <li key={result.uri}>
-              <a href={result.url} target="_blank">
-                {result.title}
-              </a>
+              <a href={result.uri} target="_blank">{result.title}</a>
             </li>
           );
         })}

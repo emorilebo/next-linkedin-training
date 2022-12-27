@@ -1,22 +1,7 @@
 import React from "react";
 
 export default function News({ results }) {
-  return (
-    <>
-      <p>Top Stories</p>
-      <ul>
-        {results.map((result) => {
-          return (
-            <li key={result.uri}>
-              <a href={result.url} target="_blank">
-                {result.title}
-              </a>
-            </li>
-          );
-        })}
-      </ul>
-    </>
-  );
+  return <>Top Stories</>;
 }
 
 const API_KEY = "XqCjeBovgaAskcg8E2nTjxcxN325yZxk";

@@ -6,13 +6,7 @@ export default function News({ results }) {
       <p>Top Stories</p>
       <ul>
         {results.map((result) => {
-          return (
-            <li key={result.uri}>
-              <a href={result.url} target="_blank">
-                {result.title}
-              </a>
-            </li>
-          );
+          return <li key={result.uri}>{result.title}</li>;
         })}
       </ul>
     </>
