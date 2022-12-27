@@ -62,7 +62,9 @@ export default function Home() {
           </Link>
           <Link href="/contact/" className={styles.card}>
             <h2>Goto Contacts</h2>
-            <p>Contacts oh</p>
+            <p>
+              
+            </p>
           </Link>
         </div>
       </main>

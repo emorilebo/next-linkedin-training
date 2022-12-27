@@ -62,7 +62,10 @@ export default function Home() {
           </Link>
           <Link href="/contact/" className={styles.card}>
             <h2>Goto Contacts</h2>
-            <p>Contacts oh</p>
+            <p>
+              Vue is a bit more old fashioned this days but then you've got to
+              understand it, elseways, why next.
+            </p>
           </Link>
         </div>
       </main>
